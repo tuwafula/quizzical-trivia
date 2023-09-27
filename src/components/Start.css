@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.start--container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.start--container-title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  text-align: center;
+  color: #293264;
+}
+
+.start--container-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #293264;
+}
+
+.start--container-button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #f5f7fb;
+  background: #4d5b9e;
+  border-radius: 15px;
+  border: none;
+  width: 193px;
+  height: 52px;
+}
+
+.blob1 {
+  position: absolute;
+  margin: 0px;
+  left: -100px;
+  bottom: -100px;
+  z-index: -1;
+  width: 300px;
+}
+
+.blob2 {
+  position: absolute;
+  margin: 0px;
+  top: -120px;
+  right: -80px;
+  z-index: -1;
+  width: 300px;
+}
